@@ -2,7 +2,7 @@
 
 pkgname=laditools
 pkgver=1.1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Utilities to improve integration and workflow with JACK and LASH."
 arch=('any')
 url="https://launchpad.net/laditools"
@@ -12,7 +12,7 @@ makedepends=('git' 'python2-distutils-extra')
 
 _tag=v${pkgver}
 _dir=${pkgname}
-source=("${_dir}"::"git+https://github.com/alessio/laditools.git"#tag=${_tag})
+source=("${_dir}"::"git+https://github.com/alessio/laditools.git")
 sha256sums=('SKIP')
 
 build() {

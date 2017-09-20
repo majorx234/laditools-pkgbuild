@@ -1,7 +1,7 @@
 pkgbase = laditools
 	pkgdesc = Utilities to improve integration and workflow with JACK and LASH.
 	pkgver = 1.1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://launchpad.net/laditools
 	arch = any
 	license = GPL3
@@ -13,7 +13,7 @@ pkgbase = laditools
 	depends = python2
 	depends = python2-enum34
 	depends = python2-yaml
-	source = laditools::git+https://github.com/alessio/laditools.git#tag=v1.1.0
+	source = laditools::git+https://github.com/alessio/laditools.git
 	sha256sums = SKIP
 
 pkgname = laditools
